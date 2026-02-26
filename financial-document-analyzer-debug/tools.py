@@ -13,7 +13,7 @@ except ImportError:
         search_tool = None
 
 from langchain_community.document_loaders import PyPDFLoader
-from crewai.tools import tool
+from crewai import tool
 
 @tool
 def read_data_tool(path: str = 'data/sample.pdf') -> str:

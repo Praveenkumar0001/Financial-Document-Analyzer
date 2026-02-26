@@ -42,7 +42,6 @@ verifier = Agent(
     tools=[read_data_tool],
     llm=llm,
     max_iter=2,
-    memory=True,
     allow_delegation=False
 )
 
